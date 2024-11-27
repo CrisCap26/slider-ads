@@ -1,0 +1,15 @@
+/* Asegúrate de que el body y html ocupen el 100% de la altura */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.container {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
